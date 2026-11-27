@@ -1,68 +1,22 @@
 <p align="center">
-<a href="http://smkpgritelagasari1.sch.id" target="_blank"><img src="https://ik.imagekit.io/harioblackid99/logo_smk_new.png?updatedAt=1704296169484" width="200" height="200" alt="logo_sekolah" /></a>
+<a href="https://github.com/DzikriDzikrulillah/PPDB-APP" target="_blank"><img src="https://ik.imagekit.io/harioblackid99/logo_smk_new.png?updatedAt=1704296169484" width="200" height="200" alt="logo_aplikasi" /></a>
 </p>
 <p align="center">
-<strong>SMK PGRI TELAGASARI</strong>
+<strong>PPDB-APP</strong>
 </p>
 
 ## Tentang Aplikasi
 
-Aplikasi ini adalah manajemen PPDB berbasis website yang dibangun dan dikembangkan dengan Framework Laravel. fitur-fitur pada aplikasi PPDB-APP antara lain :
+Aplikasi ini adalah sistem manajemen Penerimaan Peserta Didik Baru (PPDB) berbasis web yang dibangun menggunakan framework Laravel. Fitur utama pada **PPDB-APP** antara lain:
 
-- Website Sekolah
+- Website pendaftaran dan informasi
 - Monitoring pendaftaran
-- Manajemen Gelombang (Pendaftaran dapat dipisahkan berdasarkan periode)
-- Export data ke File Excel
+- Manajemen gelombang pendaftaran berdasarkan periode
+- Export data ke file Excel
 
 ## Instalasi
-Jalankan perintah berikut untuk menyalin repository dari GitHub
-```
-git clone https://github.com/hilmanXcode/PPDB-APP.git
-```
-Jalankan perintah berikut untuk menginstal dependensi php
-```
-composer install
-```
-Jalankan perintah berikut untuk mengatur _environment variable_ (Linux)
-```
-cp .env.example .env
-```
-Jalankan perintah berikut untuk mengatur _environment variable_ (Windows)
-```
-copy .env.example .env
-```
-Pastikan Anda telah membuat database baru bernama `db_ppdb_app` di MySQL dan silakan tambahkan di file `.env`. <br>
-Jalankan perintah berikut untuk membuat _key_ untuk web app Anda
-```
-php artisan key:generate
-```
-Jalankan perintah berikut untuk membuat skema database
-```
-php artisan migrate:fresh --seed
-```
-Jalankan perintah berikut untuk menyambungkan folder storage dengan public
-```
-php artisan storage:link
-```
-Terakhir, jalankan perintah berikut untuk menyalakan web server bawaan laravel 
-```
-php artisan serve
-```
-Setelah perintah di atas dijalankan, web app anda bisa sudah bisa diakses
 
-## Login Credetials
-
-| Email      | admin@smk.com |
-|------------|-----------------|
-| Password   | 123456          |
-
-## Team Pengembang
-- [hilmanXcode](https://github.com/hilmanXcode) MUHAMMAD HILMAN NURSALAM - XII RPL 2
-- [DH17-X7](https://github.com/DH17-X7) ADITTIA SULAEMAN - XII RPL 1
-- [Samunee](https://github.com/Samunee) FITRA MUHAMMAD ANUGRAH - X PPLG 3
-- FIRZA GIAN MUHARRAM - X PPLG 3
-
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. Clone repository dari GitHub:
+   ```bash
+   git clone [https://github.com/DzikriDzikrulillah/PPDB-APP.git](https://github.com/DzikriDzikrulillah/PPDB-APP.git)
+   cd PPDB-APP
